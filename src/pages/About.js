@@ -25,7 +25,7 @@ const AboutPageStyles = styled.div`
     font-size: 2.2rem;
     margin-bottom: 2rem;
     span {
-      background-color: var(--deep-dark);
+      background-color: var(--gray-2);
       padding: 0.5rem;
       border-radius: 8px;
     }
@@ -81,7 +81,7 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Sarvess Veeriyah</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">

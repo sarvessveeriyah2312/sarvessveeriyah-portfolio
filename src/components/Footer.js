@@ -24,11 +24,11 @@ const FooterStyle = styled.div`
   }
   .copyright {
     background-color: var(--dark-bg);
-    text-align: left;
+    text-align: center;
     padding: 1rem 0;
     margin-top: 5rem;
     .para {
-      margin-left: 0;
+      margin-left: 10;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -57,7 +57,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Sarvess Veeriyah</h1>
           <PText>
             A freelance web designer and developer from Chittagong, Bangladesh.
             I always make websites that have unique designs and also has a good
@@ -116,15 +116,15 @@ export default function Footer() {
             links={[
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
+                path: 'http://facebook.com/sarvess.peace',
               },
               {
                 title: 'Twitter',
-                path: 'http://twitter.com',
+                path: 'http://twitter.com/sarvess_10',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'http://instagram.com/iamsarvess_23',
               },
             ]}
           />
@@ -133,9 +133,9 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
+            © 2022 - Code by{' '}
+            <a target="_blank" rel="noreferrer" href="http://sarvessveeri.dev">
+              Sarvess Veeriyah
             </a>{' '}
           </PText>
         </div>

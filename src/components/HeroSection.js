@@ -154,7 +154,7 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Sarvess Veeriyah</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
@@ -176,7 +176,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="http://facebook.com/sarvess.peace"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -185,7 +185,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="http://twitter.com/sarvess_10"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -194,7 +194,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="http://isntagram.com/iamsarvess_23"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,7 +203,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="https://www.linkedin.com/in/sarvess-veeriyah-839345192/"
                     target="_blank"
                     rel="noreferrer"
                   >
