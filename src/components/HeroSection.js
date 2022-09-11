@@ -8,7 +8,7 @@ import PText from './PText';
 
 const HeroStyles = styled.div`
   .hero {
-    height: 100vh;
+    height: 145vh;
     min-height: 1000px;
     width: 100%;
     text-align: center;
@@ -52,6 +52,7 @@ const HeroStyles = styled.div`
     width: 50px;
   }
   .hero__social {
+    height: 500px;
     left: 50px;
   }
   .hero__scrollDown {

@@ -83,18 +83,18 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Sarvess Veeriyah</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Software Engineering Student</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  I am from Penang, Malaysia. A place of beauty and nature.
+                  Since my childhood, i love art and design. I always try to
+                  design stuff with my unique point of view. I also love to
+                  create things that can be usefull to others.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I started coding since I was in my polytechnic. Coding is also
+                  an art for me. I love it and now I have the opportunity to
+                  design along with the coding. I find it really interesting and
+                  I enjoyed the process a lot.
                   <br />
                   <br />
                   My vision is to make the world a better place. Now almost
@@ -112,18 +112,17 @@ export default function About() {
           <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
-
+              <AboutInfoItem
+                title="University"
+                items={['University Of Pahang, Malaysia (UMP)']}
+              />
+              <AboutInfoItem
+                title="Polytechnic"
+                items={['Politeknik Balik Pulau, Penang Malaysia']}
+              />
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
-              />
-              <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                items={['SMK St.Xavier, Penang Malaysia']}
               />
             </div>
             <div className="about__info__item">
@@ -145,18 +144,11 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
-              <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
-              />
+              {/* <AboutInfoItem
+                title="July 2022 - Oct 2022"
+                items={['Opeator at Jabil ']}
+              /> */}
+              <AboutInfoItem title="2019-2020" items={['IT TRAINEE']} />
             </div>
           </div>
         </div>
