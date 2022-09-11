@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+6014-305 7131',
+                path: 'tel:+88012312+6014-305 713',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'sarvess.jr@outlook.com',
+                path: 'mailto:webcifar@gmail.comsarvess.jr@outlook.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Penang, Malaysia',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -112,7 +112,7 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
                 title: 'Facebook',
@@ -133,7 +133,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2022 - Code by{' '}
+            © 2022 - Code with ❤️ by{' '}
             <a target="_blank" rel="noreferrer" href="http://sarvessveeri.dev">
               Sarvess Veeriyah
             </a>{' '}

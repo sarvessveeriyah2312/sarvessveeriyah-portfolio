@@ -39,7 +39,7 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: 5rem;
   }
   .hero__social,
   .hero__scrollDown {
@@ -122,7 +122,6 @@ const HeroStyles = styled.div`
           font-size: 1.2rem;
         }
         img {
-          max-height: 22px;
         }
       }
       .hero__social__text {
