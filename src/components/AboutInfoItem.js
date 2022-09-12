@@ -16,7 +16,7 @@ const AboutItemStyles = styled.div`
     display: flex;
     gap: 1.5rem;
     position: absolute;
-    left: 30rem;
+    left: 40rem;
   }
   .item {
     background-color: var(--deep-dark);

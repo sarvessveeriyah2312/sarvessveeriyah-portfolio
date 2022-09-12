@@ -87,20 +87,16 @@ export default function About() {
               <div className="about__info">
                 <PText>
                   I am from Penang, Malaysia. A place of beauty and nature.
-                  Since my childhood, i love art and design. I always try to
-                  design stuff with my unique point of view. I also love to
-                  create things that can be usefull to others.
+                  Since my childhood, I love exploring. I always try to explore
+                  new things especially in technology and financial. I also love
+                  to create things that can be usefull to others.
                   <br /> <br />
                   I started coding since I was in my polytechnic. Coding is also
                   an art for me. I love it and now I have the opportunity to
-                  design along with the coding. I find it really interesting and
-                  I enjoyed the process a lot.
+                  code my own website while exploring new technology. I find it
+                  really interesting and I enjoyed the process a lot.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="/Sarvess-Resume.pdf" />
@@ -130,15 +126,32 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={[
+                  'HTML',
+                  'CSS',
+                  'JavaScript',
+                  'REACT',
+                  'NextJS',
+                  'TailwindCSS',
+                ]}
+              />
+              <AboutInfoItem title="BackEnd" items={['Node', 'PHP']} />
+              <AboutInfoItem
+                title="Apps Development"
+                items={['Flutter', 'Kotlin', 'Java']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                title="Programming Language"
+                items={['Java', 'C++', 'Python']}
+              />
+              <AboutInfoItem title="Database" items={['MySQL', 'Firebase']} />
+              <AboutInfoItem
+                title="IDE"
+                items={['Visual Studio Code', 'Android Studio']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                title="UI/UX Design"
+                items={['Figma', 'Adobe XD', 'Adobe Photoshop']}
               />
             </div>
             <div className="about__info__item">

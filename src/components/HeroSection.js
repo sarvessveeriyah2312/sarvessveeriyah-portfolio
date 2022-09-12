@@ -153,7 +153,7 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
+            <span>Hello, I'm</span>
             <span className="hero__name">Sarvess Veeriyah</span>
           </h1>
           <div className="hero__img">
@@ -161,9 +161,9 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am a Software Engineering Student who attended University of
+              Malaysia Pahang. I am a self-taught programmer and also a web
+              developer.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
