@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
@@ -29,6 +31,22 @@ const ProjectItemStyles = styled.div`
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
   }
+  .projectItem__link {
+    font-size: 1.6rem;
+    font-family: 'RobotoMono Regular';
+    text-align: center;
+  }
+  .button {
+    margin-left: 35px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: transperant;
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 12px;
+    width: 80%;
+    display: inline-block;
+  }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
       height: 350px;
@@ -40,6 +58,7 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  link = 'Explore',
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +70,17 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        <br />
+        <div className="projectItem__desc">
+          <Link
+            className="button"
+            target="_blank"
+            to={link}
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faLink} />
+          </Link>
+        </div>
       </div>
     </ProjectItemStyles>
   );

@@ -15,7 +15,9 @@ const ProjectStyle = styled.div`
   }
   .projects__searchBar {
     position: relative;
-    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
     margin-top: 5rem;
   }
   .projects__searchBar input {
@@ -86,6 +88,7 @@ export default function Projects() {
                 title={item.name}
                 desc={item.desc}
                 img={item.img}
+                link={item.link}
               />
             ))}
           </div>
