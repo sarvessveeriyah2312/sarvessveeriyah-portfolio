@@ -107,6 +107,14 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
+              <h1 className="about__info__heading">Experiences</h1>
+              {/* <AboutInfoItem
+                title="July 2022 - Oct 2022"
+                items={['Opeator at Jabil ']}
+              /> */}
+              <AboutInfoItem title="2019-2020" items={['IT TRAINEE']} />
+            </div>
+            <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
               <AboutInfoItem
                 title="University"
@@ -138,7 +146,11 @@ export default function About() {
               <AboutInfoItem title="BackEnd" items={['Node', 'PHP']} />
               <AboutInfoItem
                 title="Apps Development"
-                items={['Flutter', 'Kotlin', 'Java']}
+                items={['Dart', 'Kotlin', 'Java']}
+              />
+              <AboutInfoItem
+                title="Frameworks"
+                items={['Laravel', 'Flutter']}
               />
               <AboutInfoItem
                 title="Programming Language"
@@ -155,13 +167,28 @@ export default function About() {
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              {/* <AboutInfoItem
-                title="July 2022 - Oct 2022"
-                items={['Opeator at Jabil ']}
-              /> */}
-              <AboutInfoItem title="2019-2020" items={['IT TRAINEE']} />
+              <h1 className="about__info__heading">Certifications & Awards</h1>
+              <AboutInfoItem
+                title=" UMP "
+                items={['Dean List Award 2020/2021']}
+              />
+              <AboutInfoItem
+                title=" IBM "
+                items={['IBM PYTHON FOR DATA SCIENCE']}
+              />
+              <AboutInfoItem
+                title="IBM"
+                items={['MACHINE LEARNING WITH PYTHON- LEVEL 1']}
+              />
+              <AboutInfoItem
+                title="GOOGLE"
+                items={['GOOGLE IT SUPPORT CERTIFICATION']}
+              />
+              <AboutInfoItem title="IBM" items={['CYBERSECURITY ANALYST']} />
+              <AboutInfoItem
+                title=" IBM"
+                items={['IT FUNDAMENTALS FOR CYBERSECURITY']}
+              />
             </div>
           </div>
         </div>
