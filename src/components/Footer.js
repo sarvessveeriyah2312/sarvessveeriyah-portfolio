@@ -97,7 +97,7 @@ export default function Footer() {
             links={[
               {
                 title: '+6014-305 7131',
-                path: 'tel:+88012312+6014-305 713',
+                path: 'tel:+6014-305 713',
               },
               {
                 title: 'sarvess.jr@outlook.com',
