@@ -101,7 +101,7 @@ export default function Footer() {
               },
               {
                 title: 'sarvess.jr@outlook.com',
-                path: 'mailto:webcifar@gmail.comsarvess.jr@outlook.com',
+                path: 'mailto:sarvess.jr@outlook.com',
               },
               {
                 title: 'Penang, Malaysia',
