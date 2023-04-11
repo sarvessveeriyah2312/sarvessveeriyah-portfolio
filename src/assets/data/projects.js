@@ -27,7 +27,7 @@ const projects = [
     desc:
       'A React JS portfolio website is a website that is built using React, a popular JavaScript library for building user interfaces, and is specifically designed to showcase a my portfolio. It serves as a digital resume where I can display their skills, projects, and achievements to potential employers.',
     img: portfolio,
-    link: '//github.com/sarvessveeriyah2312/Portfolio-with-Reactjs',
+    link: '//github.com/sarvessveeriyah2312/sarvessveeriyah-portfolio',
   },
 ];
 
