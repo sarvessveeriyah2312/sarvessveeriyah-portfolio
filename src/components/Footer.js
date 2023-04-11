@@ -133,7 +133,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2022 - Code with ❤️ by{' '}
+            © 2023 - Code with ❤️ by{' '}
             <a target="_blank" rel="noreferrer" href="http://sarvessveeri.dev">
               Sarvess Veeriyah
             </a>{' '}

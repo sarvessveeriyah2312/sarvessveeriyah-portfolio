@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img2.png';
+import AboutImg from '../assets/images/WhatsApp Image 2023-02-03 at 11.31.20 AM.jpeg';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;

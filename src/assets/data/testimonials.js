@@ -1,27 +1,19 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
+    name: 'DR.AL-FAHIM BIN MUBARAK ALI',
+    title: 'Academic Advisor',
+    org: 'Universiti Malaysia Pahang',
     desc:
-      'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'I highly recommend Sarvess as a reference for his exceptional professionalism and dedication to his work. His is reliable, dependable and have a wealth of knowledge in his field.',
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
-    title: 'Co-founder',
-    org: 'Kreetive',
+    name: 'TS. AZLINA BINTI ZAINUDDIN',
+    title: 'Supervisor',
+    org: 'Universiti Malaysia Pahang',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
-  },
-  {
-    id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
-    desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+      'As Sarvess s supervisor, I have been consistently impressed with their outstanding performance. He is diligent, reliable and always go the extra mile to ensure that tasks are completed to perfection. His attention to detail and ability to work independently make them a valuable student.',
   },
 ];
 export default testimonials;

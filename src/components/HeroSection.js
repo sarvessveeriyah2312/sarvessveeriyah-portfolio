@@ -194,20 +194,20 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/iamsarvess_23"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="https://www.linkedin.com/in/sarvess-veeriyah-839345192/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     LI
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/sarvessveeriyah2312"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GH
                   </a>
                 </li>
               </ul>
